@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(3, 6, 55);
+    
+    margin: 0;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  
+  .image-container  {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .theblob {
+    display: relative;
+    width: 100%;
+    left: 50%;
+  
+  }
+  .ishant {
+    display: relative;
+    margin-top: 10%;
+    border-radius: 50%;
+  }
+  p {
+    font-size: medium;
+    color: 
+    rgb(145, 10, 103); 
+  }
+  .overlay-text {
+    position: absolute;
+    z-index: 1;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: 
+    rgb(145, 10, 103); 
+    padding: 0px 20px; 
+    text-align: center;
+  }
+  .rubik-mono-one-regular, h1, h2{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: rgb(145, 10, 103);
+  }
+  .skillz-container {
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px;
+  }
+  .headertiles{
+    margin-left: 9px;
+    
+    
+    grid-column-start: 2;
+  }
+  .skillz-item-jpg {
+    border-radius: 5px;
+  }
+  h3 {
+    color:rgb(145, 10, 103);
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .footerc {
+    color:rgb(145, 10, 103);
+
+  }
+  .panel {
+    border-radius: 5px;
+    background-color: #3C0753;
+  }
+  .skillztext {
+    background-color: #3C0753;
+    border-radius: 5px;
+    
+  }
+  .infomargin {
+    margin-left: 9px;
+  }
+  .skillztextmargin {
+    margin-left: 9px;
+  }
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @media (max-width: 720px) {
+    .skillz-container {
+      margin-left: 0%;
+      grid-template-columns: 1fr 1fr;
+
+    }
+    h1, h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.3rem;
+    }
+
+
+
+  }
+  @media (max-width: 820px) {
+    .ishant {
+      height: 150px;
+      width: 150px;
+    }
+    .skillz-container {
+      margin-left: 6.25%;
+      margin-right: 6.25%;
+    }
+  }
+  @media (max-width: 600px) {
+    .skillz-container {
+      margin-left: 0%;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 993px) {
+    .infomargin {
+      margin-left: 0px;
+    }
+  }
+
+
+
+
+
+
